@@ -12,7 +12,7 @@ const config = {
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'true' : true, 
   AUTO_STICKER: process.env.AUTO_STICKER !== undefined ? process.env.AUTO_STICKER === 'false' : false,
   AUTO_DOWNLOAD: process.env.AUTO_DOWNLOAD !== undefined ? process.env.AUTO_DOWNLOAD === 'false' : false,
-  AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
+  AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'false' : false,
   ANTI_DELETE: process.env.ANTI_DELETE !== undefined ? process.env.ANTI_DELETE === 'true' : false,
   AUTO_TYPING: process.env.AUTO_TYPING !== undefined ? process.env.AUTO_TYPING === 'true' : false,
   AUTO_RECORDING: process.env.AUTO_RECORDING !== undefined ? process.env.AUTO_RECORDING === 'true' : false,
@@ -27,8 +27,8 @@ const config = {
   MODE: process.env.MODE || 'public',
   PREFIX: process.env.PREFIX || '.',
   PORT: process.env.PORT || "5000", /* Where App Will Listen On */
-  OWNER_NAME: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254762016957",
+  OWNER_NAME: process.env.OWNER_NAME || "𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "2349042566473",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
 };
 
